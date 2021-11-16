@@ -1,0 +1,3 @@
+// commande pour importer en local
+mongoimport --db mongo-tests --collection courses --drop --file test-data.json --jsonArray
+
