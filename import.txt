@@ -1,3 +1,4 @@
 // commande pour importer en local
-mongoimport --db mongo-tests --collection courses --drop --file test-data.json --jsonArray
+//mongoimport est un outil à charger
+mongoimport --db mongo-tests --collection Courses --drop --file test-data.json --jsonArray
 
