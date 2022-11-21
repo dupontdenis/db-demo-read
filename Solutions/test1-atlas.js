@@ -10,7 +10,7 @@ const courseSchema = new mongoose.Schema({
   author: String,
   tags: [String],
   date: Date,
-  isFinished: Boolean,
+  isPublished: Boolean, 
   level: Number
 })
 
