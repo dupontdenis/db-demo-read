@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/mongo-tests')
+mongoose.connect('mongodb://localhost/mongo-td')
   .then(() => console.log('connected to MongoDB'))
   .catch(err => console.error(' Could not connect to MongoDB'))
 
@@ -9,7 +9,7 @@ const courseSchema = new mongoose.Schema({
   author: String,
   tags: [String],
   date: Date,
-  isFinished: Boolean,
+  isPublished: Boolean,
   level: Number
 });
 
